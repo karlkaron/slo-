@@ -23,8 +23,8 @@
     "sails": "~0.12.1",
     "sails-disk": "~0.10.9",
      "engines": {
-          "node": "4.1.1",
-          "npm": "2.1.x"
+          "node": "^4.1.1",
+          "npm": "^2.1.x"
       }
   },
   "scripts": {
