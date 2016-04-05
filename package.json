@@ -4,6 +4,9 @@
   "version": "0.0.1",
   "description": "a Sails application",
   "keywords": [],
+  "engines": {
+        "node": "4.2.1"
+    },
   "dependencies": {
     "ejs": "2.3.4",
     "grunt": "0.4.5",
@@ -22,10 +25,7 @@
     "rc": "1.0.1",
     "sails": "~0.12.1",
     "sails-disk": "~0.10.9",
-    "engines": {
-        "node": "4.2.1",
-        "npm": "2.14.7"
-    }
+    
      
   },
   "scripts": {
