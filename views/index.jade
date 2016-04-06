@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .col-md-8
+    h1= title
+    p Welcome to #{title}
+    p #{text}
+  .col-md-4
+    form.form-signin(role='form')
+        h3.form-signin-heading Login
+        input.form-control(type='email', placeholder='Email address', required='', autofocus='')
+        input.form-control(type='password', placeholder='Password', required='')
+        .checkbox
+            label
+                input(type='checkbox', value='remember-me')
+                |  Remember me
+        button.btn.btn-lg.btn-primary.btn-block(type='submit') Sign in
