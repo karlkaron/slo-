@@ -1,0 +1,395 @@
+doctype html
+//if lt IE 7 
+  html.ie.ie6.no-js(lang='en')  
+//if IE 7 
+  html.ie.ie7.no-js(lang='en')  
+//if IE 8 
+  html.ie.ie8.no-js(lang='en')  
+//if IE 9 
+  html.ie.ie9.no-js(lang='en')  
+// [if gt IE 9] <!
+html.no-js(lang='en')
+  // <![endif]
+  head
+    meta(charset='UTF-8')
+    title Leroy - Onepage Bootstrap HTML Template
+    meta(name='description', content='Onepage Multipurpose Bootstrap HTML Template')
+    meta(name='author', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', type='text/css', media='screen', href='css/bootstrap.css')
+    link(rel='stylesheet', href='styles/font-awesome.css')
+    link(rel='stylesheet', href='styles/animate.css')
+    link(rel='stylesheet', href='styles/theme.css')
+    link(href='http://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Playball', rel='stylesheet', type='text/css')
+  body
+    // wrapper start
+    #wrapper.wrapper
+      // header
+      header
+        #banner.banner.row
+          .parallax.text-center(style='background-image: url(http://wowthemes.net/demo/leroy/img/dummy1.jpg);')
+            .parallax-pattern-overlay
+              .container.text-center(style='height:580px;padding-top:170px;')
+                a(href='#')
+                  img#site-title.wow.fadeInDown(wow-data-delay='0.0s', wow-data-duration='0.9s', src='img/logo.png', alt='logo')
+                h2.intro.wow.zoomIn(wow-data-delay='0.4s', wow-data-duration='0.9s') Catering & Special Events
+        .menu
+          .navbar-wrapper
+            .container
+              .navwrapper
+                .navbar.navbar-inverse.navbar-static-top
+                  .container
+                    .navArea
+                      .navbar-collapse.collapse
+                        ul.nav.navbar-nav
+                          li.menuItem.active
+                            a(href='#wrapper') Home
+                          li.menuItem
+                            a(href='#aboutus') About Us
+                          li.menuItem
+                            a(href='#specialties') Specialties
+                          li.menuItem
+                            a(href='#gallery') Events Gallery
+                          li.menuItem
+                            a(href='#feedback') Feedback
+                          li.menuItem
+                            a(href='#contact') Hire Us
+      // about us
+      section#aboutus.aboutus
+        .container
+          .heading.text-center
+            img.dividerline(src='img/sep.png', alt='')
+            h2 About Leroy
+            img.dividerline(src='img/sep.png', alt='')
+            h3
+              | Have you ever felt worried that your party will not raise up to your guest expectations? In design, vertical rhythm is the structure that guides a reader's eye through the content. Good vertical rhythm makes a layout more balanced and beautiful and its content more readable. The time signature in sheet music visually depicts a song's rhythm, while for us, the lines of the baseline grid depict the rhythm of our content and give us guidelines.
+          .row
+            .col-md-6
+              .papers.text-center
+                img(src='http://wowthemes.net/demo/leroy/img/dummies/18.jpg', alt='')
+                br
+                a(href='#')
+                  b Download my resume
+                h4.notopmarg.nobotmarg John Vandeley
+                p
+                  | Have you ever felt worried that your party will not raise up to your guest expectations? In design, vertical rhythm is the structure that guides a reader's eye through the content. Good vertical rhythm makes a layout more balanced and beautiful and its content more readable. The time signature in sheet music visually depicts a song's rhythm, while for us, the lines of the baseline grid depict the rhythm of our content and give us guidelines.
+            .col-md-6
+              .papers.text-center
+                img(src='http://wowthemes.net/demo/leroy/img/dummies/19.jpg', alt='')
+                br
+                a(href='#')
+                  b Download my resume
+                h4.notopmarg.nobotmarg Stephanie Hellen
+                p
+                  | Have you ever felt worried that your party will not raise up to your guest expectations? In design, vertical rhythm is the structure that guides a reader's eye through the content. Good vertical rhythm makes a layout more balanced and beautiful and its content more readable. The time signature in sheet music visually depicts a song's rhythm, while for us, the lines of the baseline grid depict the rhythm of our content and give us guidelines.
+                  // specialties
+                      section#specialties.specialties
+                        .container
+                          .heading.text-center
+                            img.dividerline(src='img/sep.png', alt='')
+                            h2 Our Specialties
+                            img.dividerline(src='img/sep.png', alt='')
+                            h3
+                              | Have you ever felt worried that your party will not raise up to your guest expectations? In design, vertical rhythm is the structure that guides a reader's eye through the content. Good vertical rhythm makes a layout more balanced and beautiful and its content more readable. The time signature in sheet music visually depicts a song's rhythm, while for us, the lines of the baseline grid depict the rhythm of our content and give us guidelines.
+                          .row
+                            .col-md-4
+                              .restmenuwrap
+                                h3.maincat.notopmarg.text-center APPETIZERS
+                                .restitem.clearfix
+                                  .rm-thumb(style='background-image: url(http://wowthemes.net/demo/leroy/img/dummies/1.jpg)')
+                                  h5 Sweet, Sticky and Spicy Chicken
+                                  p
+                                    | Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+                                .restitem.clearfix
+                                  .rm-thumb(style='background-image: url(http://wowthemes.net/demo/leroy/img/dummies/2.jpg)')
+                                  h5 Luxur Oyster
+                                  p
+                                    | Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+                                .restitem.clearfix
+                                  .rm-thumb(style='background-image: url(http://wowthemes.net/demo/leroy/img/dummies/3.jpg)')
+                                  h5 Sweet, Sticky and Spicy Chicken
+                                  p
+                                    | Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+                            .col-md-4
+                              .restmenuwrap
+                                h3.maincat.notopmarg.text-center MAIN
+                                .restitem.clearfix
+                                  .rm-thumb(style='background-image: url(http://wowthemes.net/demo/leroy/img/dummies/4.jpg)')
+                                  h5 Sweet, Sticky and Spicy Chicken
+                                  p
+                                    | Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+                                .restitem.clearfix
+                                  .rm-thumb(style='background-image: url(http://wowthemes.net/demo/leroy/img/dummies/5.jpg)')
+                                  h5 Luxur Oyster
+                                  p
+                                    | Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+                                .restitem.clearfix
+                                  .rm-thumb(style='background-image: url(http://wowthemes.net/demo/leroy/img/dummies/6.jpg)')
+                                  h5 Sweet, Sticky and Spicy Chicken
+                                  p
+                                    | Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+                            .col-md-4
+                              .restmenuwrap
+                                h3.maincat.notopmarg.text-center DESSERTS
+                                .restitem.clearfix
+                                  .rm-thumb(style='background-image: url(http://wowthemes.net/demo/leroy/img/dummies/7.jpg)')
+                                  h5 Sweet, Sticky and Spicy Chicken
+                                  p
+                                    | Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+                                .restitem.clearfix
+                                  .rm-thumb(style='background-image: url(http://wowthemes.net/demo/leroy/img/dummies/8.jpg)')
+                                  h5 Luxur Oyster
+                                  p
+                                    | Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+                                .restitem.clearfix
+                                  .rm-thumb(style='background-image: url(http://wowthemes.net/demo/leroy/img/dummies/9.jpg)')
+                                  h5 Sweet, Sticky and Spicy Chicken
+                                  p
+                                    | Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+                      // gallery
+                      section#gallery.gallery
+                        .container
+                          .heading.text-center
+                            img.dividerline(src='img/sep.png', alt='')
+                            h2 Events Gallery
+                            img.dividerline(src='img/sep.png', alt='')
+                          #grid-gallery.grid-gallery
+                            section.grid-wrap
+                              ul.grid
+                                li.grid-sizer
+                                // for Masonry column width
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/10.jpg', alt='')
+                                    figcaption
+                                      h3 Thundercats next level
+                                      p
+                                        | Portland nulla butcher ea XOXO, consequat Bushwick Pinterest elit twee pickled direct.
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/11.jpg', alt='')
+                                    figcaption
+                                      h3 Bushwick selvage synth
+                                      p Bicycle rights flannel Shoreditch, art party laboris Bushwick sriracha.
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/12.jpg', alt='')
+                                    figcaption
+                                      h3 Bottle wayfarers locavore
+                                      p Once there was a little asparagus, he was green and lonely.
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/13.jpg', alt='')
+                                    figcaption
+                                      h3 Letterpress asymmetrical
+                                      p Chillwave hoodie ea gentrify aute sriracha consequat.
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/14.jpg', alt='')
+                                    figcaption
+                                      h3 Vice velit chia
+                                      p
+                                        | Laborum tattooed iPhone, Schlitz irure nulla Tonx retro 90's chia cardigan quis before they sold out.
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/15.jpg', alt='')
+                                    figcaption
+                                      h3 Brunch semiotics
+                                      p
+                                        | Ex disrupt cray yr, butcher pour-over magna umami kitsch before they sold out commodo.
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/16.jpg', alt='')
+                                    figcaption
+                                      h3 Brunch semiotics
+                                      p
+                                        | Ex disrupt cray yr, butcher pour-over magna umami kitsch before they sold out commodo.
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/17.jpg', alt='')
+                                    figcaption
+                                      h3 Brunch semiotics
+                                      p
+                                        | Ex disrupt cray yr, butcher pour-over magna umami kitsch before they sold out commodo.
+                            // // end small images
+                            section.slideshow
+                              ul
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/10.jpg', alt='')
+                                    figcaption
+                                      h3 Thundercats next level
+                                      p
+                                        | Portland nulla butcher ea XOXO, consequat Bushwick Pinterest elit twee pickled direct trade vero.
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/11.jpg', alt='')
+                                    figcaption
+                                      h3 Bushwick selvage synth
+                                      p
+                                        | Bicycle rights flannel Shoreditch, art party laboris Bushwick sriracha authentic chambray hella umami sed distillery master cleanse.
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/12.jpg', alt='')
+                                    figcaption
+                                      h3 Bottle wayfarers locavore
+                                      p Once there was a little asparagus, he was green and lonely.
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/13.jpg', alt='')
+                                    figcaption
+                                      h3 Letterpress asymmetrical
+                                      p Chillwave hoodie ea gentrify aute sriracha consequat.
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/14.jpg', alt='')
+                                    figcaption
+                                      h3 Vice velit chia
+                                      p
+                                        | Laborum tattooed iPhone, Schlitz irure nulla Tonx retro 90's chia cardigan quis asymmetrical paleo.
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/15.jpg', alt='')
+                                    figcaption
+                                      h3 Brunch semiotics
+                                      p
+                                        | Ex disrupt cray yr, butcher pour-over magna umami kitsch before they sold out commodo.
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/16.jpg', alt='')
+                                    figcaption
+                                      h3 Brunch semiotics
+                                      p
+                                        | Ex disrupt cray yr, butcher pour-over magna umami kitsch before they sold out commodo.
+                                li
+                                  figure
+                                    img(src='http://wowthemes.net/demo/leroy/img/dummies/17.jpg', alt='')
+                                    figcaption
+                                      h3 Brunch semiotics
+                                      p
+                                        | Ex disrupt cray yr, butcher pour-over magna umami kitsch before they sold out commodo.
+                              nav
+                                span.icon.nav-prev
+                                span.icon.nav-next
+                                span.icon.nav-close
+                              .info-keys.icon Navigate with arrow keys
+                            // // end slideshow
+                          // // grid-gallery
+                          section#feedback.feedback
+                            .container.w960
+                              .heading
+                                img.dividerline(src='img/sep.png', alt='')
+                                h2 Clients Say
+                                img.dividerline(src='img/sep.png', alt='')
+                                h3
+                                  | Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.
+                                  br
+                                  | 			 Cras dictum tellus dui, vitae sollicitudin ipsum tincidunt in. Sed tincidunt tristique enim sed sollcitudin.
+                              .row
+                                blockquote
+                                  | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages." 
+                                  cite
+                                    | Jogn De, Birthday Event
+                                    br
+                                    i.fa.fa-star
+                                    i.fa.fa-star
+                                    i.fa.fa-star
+                                    i.fa.fa-star
+                                    i.fa.fa-star
+                                blockquote
+                                  | Have you ever felt worried that your party will not raise up to your guest expectations? In design, vertical rhythm is the structure that guides a reader’s eye through the content. Good vertical rhythm makes a layout more balanced and beautiful and its content more readable. The time signature in sheet music visually depicts a song’s rhythm, while for us, the lines of the baseline grid depict the rhythm of our content and give us guidelines. 
+                                  cite
+                                    | Marta Kay, Business Cocktalil
+                                    br
+                                    i.fa.fa-star
+                                    i.fa.fa-star
+                                    i.fa.fa-star
+                                    i.fa.fa-star
+                                    i.fa.fa-star
+                          // feedback
+                          section#contact.contact
+                            .container
+                              .heading
+                                img.dividerline(src='img/sep.png', alt='')
+                                h2 Hire Us
+                                img.dividerline(src='img/sep.png', alt='')
+                                h3
+                                  | Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.
+                                  br
+                                  | 				 Cras dictum tellus dui, vitae sollicitudin ipsum tincidunt in. Sed tincidunt tristique enim sed sollcitudin.
+                            .container.w960
+                              .row
+                                .done
+                                  .alert.alert-success
+                                    button.close(type='button', data-dismiss='alert') ×
+                                    | 				Your message has been sent. Thank you!
+                                form#contactform(method='post', action='contact.php')
+                                  input.contact.col-md-6(name='name', type='text', placeholder='Your Name *')
+                                  input.contact.noMarr.col-md-6(name='email', type='email', placeholder='E-mail address *')
+                                  textarea.contact.col-md-12(name='comment', placeholder='Message *')
+                                  input#submit.contact.submit(type='submit', value='Send message')
+                          // footer
+                          section#footer.footer
+                            p.text-center
+                              a.gototop(href='#wrapper')
+                                i.fa.fa-angle-double-up.fa-2x
+                            .container
+                              ul
+                                li
+                                  a(href='#')
+                                    i.fa.fa-twitter
+                                li
+                                  a(href='#')
+                                    i.fa.fa-facebook
+                                li
+                                  a(href='#')
+                                    i.fa.fa-linkedin
+                                li
+                                  a(href='#')
+                                    i.fa.fa-pinterest
+                                li
+                                  a(href='#')
+                                    i.fa.fa-flickr
+                              p
+                                | © 2015 Copyright Your Website
+                                br
+                                | 			 Theme by 
+                                a(href='http://www.wowthemes.net') WowThemes.Net
+                          // wrapper end
+                          // Javascripts
+                          script(src='js/jquery.js')
+                          script(src='js/modernizr.js')
+                          script(src='js/bootstrap.js')
+                          script(src='js/menustick.js')
+                          script(src='js/parallax.js')
+                          script(src='js/easing.js')
+                          script(src='js/wow.js')
+                          script(src='js/smoothscroll.js')
+                          script(src='js/masonry.js')
+                          script(src='js/imgloaded.js')
+                          script(src='js/classie.js')
+                          script(src='js/colorfinder.js')
+                          script(src='js/gridscroll.js')
+                          script(src='js/contact.js')
+                          script(src='js/common.js')
+                          script(type='text/javascript').
+                            jQuery(function($) {
+                            $(document).ready( function() {
+                            //enabling stickUp on the '.navbar-wrapper' class
+                            $('.navbar-wrapper').stickUp({
+                            parts: {
+                            0: 'banner',
+                            1: 'aboutus',
+                            2: 'specialties',
+                            3: 'gallery',
+                            4: 'feedback',
+                            5: 'contact'
+                            },
+                            itemClass: 'menuItem',
+                            itemHover: 'active',
+                            topMargin: 'auto'
+                            });
+                            });
+                            });
