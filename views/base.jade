@@ -36,9 +36,9 @@ html.no-js(lang='en')
                   img#site-title.wow.fadeInDown(wow-data-delay='0.0s', wow-data-duration='0.9s', src='images/log1.png', alt='logo')
                 h2.intro.wow.zoomIn(wow-data-delay='0.4s', wow-data-duration='0.9s') SLO +   future learning
         .menu
-          .navbar-wrapper
+          .navbar-wrapper 
             .container
-              .navwrapper
+              #menus.navwrapper.stuckMenu.default
                 .navbar.navbar-inverse.navbar-static-top
                   .container
                     .navArea
@@ -362,7 +362,7 @@ html.no-js(lang='en')
     script(src='js/jquery.js')
     script(src='js/modernizr.js')
     script(src='js/bootstrap.js')
-    script(src='js/menustick.js')
+    //script(src='js/menustick.js')
     script(src='js/parallax.js')
     script(src='js/easing.js')
     script(src='js/wow.js')
@@ -374,22 +374,7 @@ html.no-js(lang='en')
     script(src='js/gridscroll.js')
     script(src='js/contact.js')
     script(src='js/common.js')
-    script(type='text/javascript').
-      jQuery(function($) {
-      $(document).ready( function() {
-      //enabling stickUp on the '.navbar-wrapper' class
-      $('.navbar-wrapper').stickUp({
-      parts: {
-      0: 'banner',
-      1: 'aboutus',
-      2: 'specialties',
-      3: 'gallery',
-      4: 'feedback',
-      5: 'contact'
-      },
-      itemClass: 'menuItem',
-      itemHover: 'active',
-      topMargin: 'auto'
-      });
-      });
-      });
+    script(src='js/my.js')
+    
+    
+    
